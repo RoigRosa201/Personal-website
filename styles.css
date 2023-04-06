@@ -29,3 +29,11 @@ body {
     text-decoration: none;
     font-weight: 600;
 }
+
+.navbar a {
+    font-size: 18px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
