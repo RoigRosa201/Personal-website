@@ -8,7 +8,7 @@
 
 body {
     background: gray;
-    color: midnightblue;
+    color: #00abf0;
 }
 
 .header {
@@ -54,6 +54,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0 10%;
+    background-size: auto auto;
 }
 
 .home-content {
@@ -162,3 +163,31 @@ body {
     height: 100%;
     /*background: whitesmoke;*/
 }
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    height: 100vh;
+  }
+  
+  .time {
+    display: flex;
+  }
+  
+  .time span {
+    margin: 0 10px;
+  }
+  
+  .date {
+    font-size: 24px;
+    font-weight: small;
+    margin-top: 10px;
+  }
+  
+  .date span {
+    margin: 0 5px;
+  }
