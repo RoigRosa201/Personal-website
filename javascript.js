@@ -16,3 +16,8 @@ function updateTime() {
   }
   
   setInterval(updateTime, 1000);
+
+
+  function displayAlert() {
+    alert("Form submitted successfully!");
+  }
